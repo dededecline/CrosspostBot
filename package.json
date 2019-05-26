@@ -1,0 +1,35 @@
+{
+  "name": "crosspost-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for crossposting between servers",
+  "main": "./bin/index.js",
+  "author": "Daniel H Klein",
+  "scripts": {
+    "build:gulp": "gulp build",
+    "watch:gulp": "gulp watch",
+    "serve:gulp": "gulp serve",
+    "start:gulp": "gulp start",
+    "serve": "npm run serve:gulp -s",
+    "watch": "npm run watch:gulp -s",
+    "build": "npm run build:gulp -s",
+    "start": "npm run start:gulp -s"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "common-tags": "^1.8.0",
+    "winston": "^2.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "@types/winston": "^2.4.4",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "intellisense": "^0.0.1",
+    "typesafety": "^0.0.5",
+    "typescript": "^3.4.5"
+  }
+}
