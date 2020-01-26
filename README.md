@@ -74,4 +74,4 @@ will all crosspost properly. Let me know if something is not being preserved.
 
 #### Will reacts be crossposted?
 
-Not at this time.
+No.
