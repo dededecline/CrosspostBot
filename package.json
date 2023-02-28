@@ -25,7 +25,7 @@
     "@types/winston": "^2.4.4",
     "del": "^4.1.1",
     "gulp": "^4.0.2",
-    "gulp-nodemon": "^2.4.2",
+    "gulp-nodemon": "^2.5.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-typescript": "^5.0.1",
     "intellisense": "^0.0.1",
